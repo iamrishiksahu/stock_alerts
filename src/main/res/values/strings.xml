@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Stock Alerts</string>
+
+    <string name="open_toggle">Open</string>
+    <string name="close_toggle">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    //custom used strings from below-->
+
+    <string name="emailNotVerifiedAlertText">Your email address is not verified. Please check your mail from Stock Alerts and click on the verification link then try again to login!</string>
+    <string name="scrollingDisclaimer">Please click on menu icon on top left corner for tutorials on how to use signals and intraday/positional strategies.</string>
+    <string name="autogenertedcaution">All notifications are auto-generated.</string>
+    <string name="bottomTextScroller">Email on rishikkr@hotmail.com for more information</string>
+    <string name="premium_home_web_url">file:///android_asset/analysis_html.html</string>
+    <string name="production_rzp_apikey">rzp_live_Tr4HuKU1kssBOK</string>
+    <string name="test_rzp_apikey">rzp_test_KZFjEGivMrjNrI</string>
+    <string name="yt_channel_url">https://www.youtube.com/channel/UCbSPZ8mwShhNqy4x6JnnI6A</string>
+
+    <string name="support_phone">+91-8987400143</string>
+    <string name="support_email">rishikkr@hotmail.com</string>
+    <string name="starting_disclaimer">These CHARTS &amp; SIGNALS (signals are auto-generated) are only for educational and knowledge purpose. Before taking any decision, please once consult with your financial advisor or do your own research. We would not be responsible for any financial gain as well as for losses. We are not SEBI registered.</string>
+    <string name="tnc"><![CDATA[ <br><br><p><strong><span style="font-size: 20px;">Terms and Conditions:</span></strong></p><br>
+            <p>&quot;I&quot;, &quot;we&quot;, &quot;us&quot;, &quot;this&quot; &amp; &quot;our&quot; refers to Stock Alerts in respective terms. All the contents in this application are copyrighted to Stock Alerts. No content can be republished or re-produced by any third-party, customer, user or an individual in any case. We reserve the right to proceed legally if such act is observed. All the content and material available in this application is solely meant for learning and educational purpose only. Through this application, we do not guarantee anything. Everything provided here is based upon technical research and analysis. The information in any form provided through this application should be taken for education purpose only. No action is requested or asked to perform to the user by us.&nbsp;</p>
+            <p>We are not liable for damages, losses and causes of action whether in contract, tort (including without limitation, strict liability) for accessing the Service. We also assume no responsibility, and shall not be liable for any damages to, or viruses that may infect, your computer equipment or other property on account of your access, use of, or browsing in the Service or your downloading of any materials, data, text, images, video, or audio from the Service. However, under an ideal circumstance, there should not be any harm to you and your electrical devices by using this application. The final decision on the meaning of the &quot;ideal circumstance&quot; is decided by the owner(s) of this application.</p>
+            <p>You expressly agree that use of this mobile application (herein referred to as the Service) is at your sole risk. Neither we, nor any of our respective employees, agents, third part content providers or licencors warrant that the Service will be uninterrupted or error free; nor do they make any warranty as the results that may be obtained from the use of the Service, or from the information obtained therein, or as to the accuracy or reliability of any information or service provided through the Service.</p>
+            <p>We do not guarantee all day, all time availability of the support helpline working. The denoted time is just for convenience and we may change that timing without any prior information to any customer or user of this application service. Support helpline may be busy during some hours. Also, we do not guarantee that any query will be resolved totally or the resolution is customer satisfactory or not. We are not responsible if your query does not gets resolved due to any reason.&nbsp;</p>
+            <p>All the payments done through this application is facilitated by our payment gateway Razorpay. Any payment related issues are handled by them only. We will not be responsible for any kind of payment related issues which has occurred during processing any payment in this application. You can contact Razorpay customer support for payment related questions and queries.</p>
+            <br><br>
+            <p>General Terms:</p>
+            <br>
+            <ul>
+                <li>We are not SEBI registered.</li>
+                <li>No Tips | No Advisory | No Profit Sharing | Learn Yourself | Analyse Yourself</li>
+                <li>Resources and content which we provide is just based upon technical analysis and is meant to your research purpose only. We do not provide any advisory.</li>
+                <li>Before trading or taking any action, please analyse yourself or consult your financial advisor. We do not guarantee profit or loss. Also, we are not liable to share any profit or loss which the users of this applications make in any context.</li>
+            </ul>
+            <p>By using our application you agree to the terms and conditions of service provided by us. We reserve the right to change or modify the terms and conditions in this application for the use of this application without any prior knowledge to anyone.</p>
+            <p><br></p>
+            <br>
+            <p><span style="font-size: 20px;">Refund Policy:</span></p><br>
+
+            <p>All the successful payments done via this applications to purchase any thing is 100% non-refundable. We do not entertain any refund request at any point of time after any purchase.</p>
+            <p><br></p>
+                        <br>
+            <p><span style="font-size: 20px;">Privacy Policy:</span></p>
+                        <br>
+            <p>All the user meta information and the personal data which are captured from the user for using this application are just for our personal analysis purpose and we do not intentionally share it to any of the individual or organisation in the globe. However, we are not responsible in the cases of data leak, data loss, data theft, etc.</p>
+
+
+             <p><br></p>
+                        <br>
+            <p><span style="font-size: 20px;">Terms of Use:</span></p>
+                        <br>
+            <p>For this application to show notifications to you, this application MUST be running in the background. If you have rebooted the device then you have to open this application manually and let it to work in the background. You must not slide it from the recent tab to close this application. If you have done so, then you have to again restart the application manually to work the notification properly. We will not be responsible for not receiving notification due to any wrong handling of the application from client side. Also, we reserve the right to describe the meaning of "wrong handling".</p>
+
+
+    ]]></string>
+
+    <string name="html"><![CDATA[ put your text here]]></string>
+    <string name="charts_only_offer"><![CDATA[<ul>
+    <li>EOD Based Candlesticks Charts</li>
+    <li>EOD Data Upto 50 Scripts with Support &amp; Resistance</li>
+</ul>]]></string>
+    <string name="one_month_offer"><![CDATA[<ul>
+    <li>EOD Based Candlesticks Charts</li>
+     <li>EOD Data Upto 50 Scripts with Support &amp; Resistance</li>
+         <li>Live Signal Notifications With Support &amp; Resistance</li>
+         <li>Live Notifications for Equity, Futures &amp; Options</li>
+
+
+</ul>]]></string>
+
+    <string name="three_month_offer">
+        <![CDATA[<ul>
+     <li>EOD Based Candlesticks Charts</li>
+     <li>EOD Data Upto 50 Scripts with Support &amp; Resistance</li>
+     <li>Live Signal Notifications With Support &amp; Resistance</li>
+     <li>Live Notifications for Equity, Futures &amp; Options</li></ul>]]></string>
+
+    <string-array name="interest_lists">
+        <item>Equity</item>
+        <item>Futures</item>
+        <item>Options</item>
+    </string-array>
+
+
+</resources>

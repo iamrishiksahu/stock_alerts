@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "691052961356",
+    "firebase_url": "https://wealth-creator-pro.firebaseio.com",
+    "project_id": "wealth-creator-pro",
+    "storage_bucket": "wealth-creator-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691052961356:android:25745ad55d83a6270ddee9",
+        "android_client_info": {
+          "package_name": "com.pratikwaghmare.stockalertsmain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0agfZRkR0dO69zBGTaGNISUbJfYAoUiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691052961356:android:dcb9d7fc074dc2b10ddee9",
+        "android_client_info": {
+          "package_name": "com.wealthcreatorpro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0agfZRkR0dO69zBGTaGNISUbJfYAoUiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691052961356:android:3979f51e741fba7b0ddee9",
+        "android_client_info": {
+          "package_name": "com.wealthcrplus.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0agfZRkR0dO69zBGTaGNISUbJfYAoUiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691052961356:android:9b8fd818807161c20ddee9",
+        "android_client_info": {
+          "package_name": "com.wealthcrplus.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0agfZRkR0dO69zBGTaGNISUbJfYAoUiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691052961356-h9fr7u9vrvn74hjchjdg13q7dhcsgfip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

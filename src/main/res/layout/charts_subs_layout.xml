@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginTop="32dp"
+    android:layout_height="200dp"
+    android:background="@drawable/rounded_corner_button_layout"
+    android:backgroundTint="@color/black"
+    android:id="@+id/charts_only_layout_pack_threeM"
+    android:layout_below="@+id/three_month_layout_pack"
+    android:elevation="3dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CHARTS PLAN"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/tev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Get 90 Days Access To-"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <TextView
+        android:id="@+id/subs_offer_charts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Test offer"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tev2"
+        />
+
+    <TextView
+        android:id="@+id/price_charts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="Rs. 49/-"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/charts_subs_button" />
+
+
+
+    <Button
+        android:id="@+id/charts_subs_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Subscribe"
+        android:elevation="3dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_corner_button_layout"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="200dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_corner_button_layout"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

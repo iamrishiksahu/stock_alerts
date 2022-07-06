@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DisclaimerActivity">
+
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo_512"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo_text_black_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo1" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo2">
+
+        <TextView
+            android:id="@+id/Disc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="DISCLAIMER"
+            android:textAlignment="center"
+            android:textColor="@color/midBlack"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/mainTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Disc"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:text="disclaimer_body here"
+            android:textAlignment="center"
+            android:textSize="14sp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/proceedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Agree, Continue!"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="32dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corner_button_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

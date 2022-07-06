@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="32dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/greetingTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, Ramesh!"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:id="@+id/not_subscirbed_layout"
+                android:orientation="vertical"
+                android:layout_below="@+id/greetingTv"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="You are not subscribed!"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:paddingRight="32dp"
+                    android:paddingLeft="32dp"
+                    android:text="Please subscribe a plan to receive buy/sell recommendation notifications!"
+                        />
+            </LinearLayout>
+
+            <include layout="@layout/active_subscription_layout"/>
+
+            <TextView
+                android:id="@+id/asb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activeSubsLayout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Your Interests -"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/danger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="20dp"
+                android:textSize="12sp"
+                android:textColor="#F32013"
+                android:layout_below="@+id/asb"
+                android:text="Note! You will NOT get live signal notifications for the segments which are not in your interests. Please manage your interests accordingly!"
+                />
+
+            <Button
+                android:id="@+id/manage_interest_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_below="@+id/danger"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="16dp"
+                android:text="Manage Your Interests"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_corner_button_layout"
+                android:textColor="@color/white"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/account_interest_rv"
+                android:background="@color/lightGrey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/manage_interest_btn"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                />
+
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/loadingBar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignBaseline="@+id/account_interest_rv"
+                android:layout_below="@+id/asb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="420dp"
+                android:theme="@style/AppTheme.ProgressBarTheme" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

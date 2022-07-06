@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rishiksahu.stockalertsmain">
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:enabled="true"
+        android:icon="@drawable/logo_512"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_512"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockAlerts" >
+
+        <activity android:name="com.rishiksahu.stockalertsmain.activities.NotificationsActivity"></activity>
+        <activity android:name="com.rishiksahu.stockalertsmain.activities.NotificationDisplayActivity" />
+        <activity android:name="com.rishiksahu.stockalertsmain.activities.OrderConfirmActivity" />
+        <activity
+            android:name="com.rishiksahu.stockalertsmain.activities.DisclaimerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="com.rishiksahu.stockalertsmain.activities.TnCActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rishiksahu.stockalertsmain.activities.LoginRegActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name="com.rishiksahu.stockalertsmain.activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rishiksahu.stockalertsmain.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+
+        <service
+            android:name="com.rishiksahu.stockalertsmain.classes.MyFirebaseMessagingService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.rishiksahu.stockalertsmain.classes.DeviceRebootHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_Tr4HuKU1kssBOK" />
+    </application>
+
+
+</manifest>

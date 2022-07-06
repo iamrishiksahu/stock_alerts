@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginTop="32dp"
+    android:layout_height="200dp"
+    android:background="@drawable/rounded_corner_button_layout"
+    android:backgroundTint="@color/black"
+    android:id="@+id/free_subs_layout"
+    android:elevation="3dp"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Get Free Subscription!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/subs_offer_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="->Subscribe to our youtube channel!\n->Press the bell icon.\n->Send the screenshot on +916366689135\n->After verification, we will give you free acess."
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4"
+        />
+
+    <Button
+        android:id="@+id/ytClickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Youtube Channel Link"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/rounded_corner_button_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subs_offer_free"/>
+        />
+
+
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="200dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_corner_button_layout"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

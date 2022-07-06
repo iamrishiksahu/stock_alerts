@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OrderConfirmActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/rounded_corner_button_layout"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/orderconf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Your Order!"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/orange"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Title: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/orderconf"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/plan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Title: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tc"
+            app:layout_constraintStart_toEndOf="@+id/tc" />
+
+        <TextView
+            android:id="@+id/tc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Price: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tc"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/plan_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Title: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tc1"
+            app:layout_constraintStart_toEndOf="@+id/tc1" />
+
+        <TextView
+            android:id="@+id/tc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Features: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tc1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/plan_features"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Plan Features: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="@+id/tc2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tc2" />
+
+
+        <TextView
+            android:id="@+id/tc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Validity: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/plan_features"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/plan_validity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Plan Features: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tc3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tc3" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/continueBtnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Pay Now"
+        android:background="@drawable/rounded_corner_button_layout"
+        android:backgroundTint="@color/darkOrange"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/payment_success_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:translationZ="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/success_tick"
+            android:layout_marginTop="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscription Successful!"
+            android:textAlignment="center"
+            android:textColor="@color/darkOrange"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="40dp"
+            android:text="The Order Details and The Payment Details are Sent To You on Your Registered Email Address!"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tva" />
+
+        <TextView
+            android:id="@+id/abx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:text="Please Close This App and Open Again to Refresh Your Subscription!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/or" />
+
+        <TextView
+            android:id="@+id/interestWarningTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:visibility="gone"
+            android:text="Note! You will only receive live signal notifications of the segments which are in your interest list. You can manage your interest list anytime by going to the Account Tab."
+            android:textAlignment="center"
+            android:textColor="@color/dangerRed"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/abx" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

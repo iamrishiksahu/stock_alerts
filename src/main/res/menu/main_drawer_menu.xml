@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_homeFragment"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        android:menuCategory="secondary"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_how_to_use"-->
+<!--        android:title="How to Use This App"-->
+<!--        android:icon="@drawable/video_icon"-->
+<!--        android:menuCategory="secondary"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_tut2"-->
+<!--        android:title="Intraday Tutorial"-->
+<!--        android:icon="@drawable/video_icon"-->
+<!--        android:menuCategory="secondary"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_tut3"-->
+<!--        android:title="Positional Tutorial"-->
+<!--        android:icon="@drawable/video_icon"-->
+<!--        android:menuCategory="secondary"-->
+<!--        />-->
+
+    <item
+        android:id="@+id/nav_help"
+        android:title="Help &amp; Support"
+        android:icon="@drawable/support_icon"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/nav_share"
+        android:title="Share This App"
+        android:icon="@drawable/share_icon"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/nav_tnc"
+        android:title="Terms &amp; Conditions"
+        android:icon="@drawable/terms_cond_icon"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/signout_icon"
+        android:menuCategory="secondary"
+        />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.SubscribeFragment"
+    >
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="32dp"
+          >
+
+          <include layout="@layout/one_month_subs_layout"/>
+          <include layout="@layout/three_month_subs_layout"/>
+<!--          <include layout="@layout/charts_subs_layout"/>-->
+
+
+      </RelativeLayout>
+
+  </ScrollView>
+
+</FrameLayout>
